@@ -1,0 +1,24 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { Artworks } from "../../lib/artworks.ts";
+
+export function getStaticPaths() {
+  return Artworks.map((artwork) => {
+    return {
+      params: { artwork: artwork.artworkName },
+      props: { ...artwork.props },
+    };
+  });
+}
+
+const { artwork } = Astro.params;
+const { artist, localAssetPath, youtubeURL } = Astro.props;
+---
+
+<Layout title={artwork}>
+  <main>
+    <h1>{artwork}</h1>
+    <p>wassssssssuppp</p>
+    <p>{artist}</p>
+  </main>
+</Layout>
