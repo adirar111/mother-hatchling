@@ -15,7 +15,7 @@ export const Artworks: Artwork[] = [
         "Every person involved with the production was attuned to my grief and kept me company as I was dragged through the pits of it, and I could never be grateful enough. One specific shoot day nearly actually killed me, and I can tell the story of that later on, but that experience led me to so many conclusions about myself, my mother, the afterlife, my love, and made it possible for me to be a peace with my mom's passing. I haven't achieved that peace completely yet, but believe me, it truly is possible.",
       ],
       localImagePaths: [
-        `${import.meta.env.BASE_URL}/artworks/flyman/flyman-collage.png`,
+        `${import.meta.env.BASE_URL}/artworks/flyman/flyman-collage.jpeg`,
       ],
       youtubeEmbedURLs: ["https://www.youtube.com/embed/V2O4pz8-2ZI"],
       localAudioPaths: null,
@@ -59,7 +59,7 @@ export const Artworks: Artwork[] = [
         "My mom would visit my grandma everyday, and I felt like I was grieving vicariously through her. I chose to cut up a pair of jeans she gave me as hand-me-downs, which I had worn out with use. This material symbolizes the connection we share, and the many strengths and weaknesses that were passed down from my grandma to my mom, and my mom to me. By positioning the spool in the centre of a canvas, the frame becomes a window or portal, the spoon on the precipice of sadness with a backdrop of layered grid lines that offer an imperfect container.",
       ],
       localImagePaths: [
-        `${import.meta.env.BASE_URL}/artworks/hers-and-mine/hers-and-mine.png`,
+        `${import.meta.env.BASE_URL}/artworks/hers-and-mine/hers-and-mine.jpeg`,
       ],
       localAudioPaths: null,
       youtubeEmbedURLs: null,
@@ -238,8 +238,8 @@ export const Artworks: Artwork[] = [
         "My mother was very \"motherly\" until around the age of 7. There had always been signs of her being a bit off, but it ultimately culminated in her developing a deep alcohol dependency and all the horrible side effects of that. I watched several times what I believed was my mother's death from seizures, wishing desperately to be my younger sister who would have no memory of it, her being aged 2 at the time. She had always been a stay at home mom, which meant I knew her and depended on her very intimately. For around a year and half during this I took care of her (and my sister), believing I could fix her. Ultimately, my father divorced her. At the time I did not understand it fully. I only knew one day I came home from my grandparent's and she was not home. She never did return. I blamed my father for ousting her for many years, but I've come to realize he was protecting us from her. She was incredibly erratic and would not accept the help she needed. I remember her outbursts, physically and mentally, but was not aware of the full extent of danger she routinely but us in—while I remember her taking us out at night to lone parks, begging her to take us home, I did not realize she did so to drink from her hidden vodka bottles, nor did I understand that my baby sister's sunburns were from my mother drinking herself to sleep on the beach's benches while my sister roamed free. I have not lived with her since the age of 8, and it has been a very long (and in many ways infinite) journey of healing. A few years after she met and married a man in Canada, and has been living here on an expired visa for many years. In many ways her husband is horrible, but he keeps her stable. She's hasn't been allowed outside for years, but from his iron fist she also isn't able to get the drugs and alcohol nor spend her money like crazy as I saw growing up. It's difficult to pick apart the existence of the chronically abused woman who simply knows no other way of life. I used to joke my mother was the woman at the gas station who ended up dead in a ditch; that's not true anymore. I speak with her a handful of times a year and in the past year or so it has become much easier. After spending so much time with both my younger sister and my partner with autism, I realized that she most likely has autism as well. After coming to that conclusion, I can speak to her with more grace and tact. I used to get very mad and her \"craziness\" and blame the alcohol and traumatic brain injuries—but much of it can be explained with this new revelation. I will always be upset and hurt for the trauma she made me endure at such a young age, but I have come to find peace in realizing she is not my \"mom.\" Looking back she never was, and the source of my pain was always looking for my \"mom\" when every other girl had such a bright and shining (and functioning) one. Getting older has been a blessing. I looked forward to it since I was that scared child of 7. Being an adult is liberating, and I would never change it for the world. My childhood was horrible, and continuously predicated on the whims of others. As an adult I am in charge. I can physically /leave/ people that terrify me. I didn't have that choice as a child. I always tell younger people it gets better, because it does. I hated childhood, and I don't reminisce seriously. Being an adult means having all the freedom in the world. I love it. I wish I could take care of little me in the past and tell her how awesome life gets, but that your past isn't always a curse either. I function quite normally (after a lot, but still) and I don't think about my childhood except when made to. I used to wish my childhood never happened, but I don't anymore. It made me unbelievable resilient and remarkably empathetic. I am my own mother and my own mom, and it honestly rocks.",
       ],
       localImagePaths: [
-        `${import.meta.env.BASE_URL}/artworks/still-life/01.png`,
-        `${import.meta.env.BASE_URL}/artworks/still-life/02.png`,
+        `${import.meta.env.BASE_URL}/artworks/still-life/01.jpeg`,
+        `${import.meta.env.BASE_URL}/artworks/still-life/02.jpeg`,
       ],
       localAudioPaths: null,
       youtubeEmbedURLs: null,
@@ -285,7 +285,7 @@ export const Artworks: Artwork[] = [
         "This video installation explores different forms of remembering, erasure, grief, loss, and present experience of memory. Through the performative act of rubbing, exploring, and remembering through objects, this fragmented imagery is an attempt to approach a memory non-linearly and assert the importance of emotions and subjectivity when interacting with photographs and the past.",
       ],
       localImagePaths: [
-        `${import.meta.env.BASE_URL}/artworks/thread-of-red/thread-of-red.png`,
+        `${import.meta.env.BASE_URL}/artworks/thread-of-red/thread-of-red.jpeg`,
       ],
       localAudioPaths: null,
       youtubeEmbedURLs: ["https://www.youtube.com/embed/-ivrT7XU8dU"],
