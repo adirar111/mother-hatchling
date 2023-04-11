@@ -1,5 +1,6 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import Artwork from "../../components/Artwork.tsx";
 import { Artworks } from "../../lib/artworks.ts";
 
 export function getStaticPaths() {
@@ -12,13 +13,30 @@ export function getStaticPaths() {
 }
 
 const { artwork } = Astro.params;
-const { artist, localAssetPath, youtubeURL } = Astro.props;
+const {
+  artists,
+  aboutArtists,
+  medium,
+  aboutArtwork,
+  artistLinks,
+  localImagePaths,
+  localAudioPaths,
+  youtubeEmbedURLs,
+} = Astro.props;
 ---
 
 <Layout title={artwork}>
   <main>
-    <h1>{artwork}</h1>
-    <p>wassssssssuppp</p>
-    <p>{artist}</p>
+    <Artwork
+      artworkName={artwork}
+      artists={artists}
+      aboutArtists={aboutArtists}
+      artistLinks={artistLinks}
+      medium={medium}
+      aboutArtwork={aboutArtwork}
+      localImagePaths={localImagePaths}
+      localAudioPaths={localAudioPaths}
+      youtubeEmbedURLs={youtubeEmbedURLs}
+    />
   </main>
 </Layout>
