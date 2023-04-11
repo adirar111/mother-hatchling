@@ -21,8 +21,8 @@ export default function Artwork({
       <h2>{artworkName}</h2>
       <h3>by: {artists.join(", ")}</h3>
       <h3>about the artist:</h3>
-      {aboutArtists.map((aboutArtist) => (
-        <p>{aboutArtist}</p>
+      {aboutArtists.map((aboutArtist, index) => (
+        <p key={index}>{aboutArtist}</p>
       ))}
       <ul>
         {artistLinks.map((link, index) => (
@@ -31,11 +31,13 @@ export default function Artwork({
       </ul>
       <h3>about the artwork:</h3>
       <p>{medium}</p>
-      {aboutArtwork.map((paragraph) => (
-        <p>{paragraph}</p>
+      {aboutArtwork.map((paragraph, index) => (
+        <p key={index}>{paragraph}</p>
       ))}
-      {artworks.map((artwork) => (
-        <div style={{ margin: "10px 0px", textAlign: "center" }}>{artwork}</div>
+      {artworks.map((artwork, index) => (
+        <div style={{ margin: "10px 0px", textAlign: "center" }} key={index}>
+          {artwork}
+        </div>
       ))}
     </div>
   );
