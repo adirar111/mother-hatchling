@@ -159,61 +159,61 @@ export const Artworks: Artwork[] = [
       localImagePaths: [
         `${
           import.meta.env.BASE_URL
-        }/artworks/oh-mother-what-planet-is-this/01.png`,
+        }/artworks/oh-mother-what-planet-is-this/01.jpeg`,
         `${
           import.meta.env.BASE_URL
-        }/artworks/oh-mother-what-planet-is-this/02.png`,
+        }/artworks/oh-mother-what-planet-is-this/02.jpeg`,
         `${
           import.meta.env.BASE_URL
-        }/artworks/oh-mother-what-planet-is-this/03.png`,
+        }/artworks/oh-mother-what-planet-is-this/03.jpeg`,
         `${
           import.meta.env.BASE_URL
-        }/artworks/oh-mother-what-planet-is-this/04.png`,
+        }/artworks/oh-mother-what-planet-is-this/04.jpeg`,
         `${
           import.meta.env.BASE_URL
-        }/artworks/oh-mother-what-planet-is-this/05.png`,
+        }/artworks/oh-mother-what-planet-is-this/05.jpeg`,
         `${
           import.meta.env.BASE_URL
-        }/artworks/oh-mother-what-planet-is-this/06.png`,
+        }/artworks/oh-mother-what-planet-is-this/06.jpeg`,
         `${
           import.meta.env.BASE_URL
-        }/artworks/oh-mother-what-planet-is-this/07.png`,
+        }/artworks/oh-mother-what-planet-is-this/07.jpeg`,
         `${
           import.meta.env.BASE_URL
-        }/artworks/oh-mother-what-planet-is-this/08.png`,
+        }/artworks/oh-mother-what-planet-is-this/08.jpeg`,
         `${
           import.meta.env.BASE_URL
-        }/artworks/oh-mother-what-planet-is-this/09.png`,
+        }/artworks/oh-mother-what-planet-is-this/09.jpeg`,
         `${
           import.meta.env.BASE_URL
-        }/artworks/oh-mother-what-planet-is-this/10.png`,
+        }/artworks/oh-mother-what-planet-is-this/10.jpeg`,
         `${
           import.meta.env.BASE_URL
-        }/artworks/oh-mother-what-planet-is-this/11.png`,
+        }/artworks/oh-mother-what-planet-is-this/11.jpeg`,
         `${
           import.meta.env.BASE_URL
-        }/artworks/oh-mother-what-planet-is-this/12.png`,
+        }/artworks/oh-mother-what-planet-is-this/12.jpeg`,
         `${
           import.meta.env.BASE_URL
-        }/artworks/oh-mother-what-planet-is-this/13.png`,
+        }/artworks/oh-mother-what-planet-is-this/13.jpeg`,
         `${
           import.meta.env.BASE_URL
-        }/artworks/oh-mother-what-planet-is-this/14.png`,
+        }/artworks/oh-mother-what-planet-is-this/14.jpeg`,
         `${
           import.meta.env.BASE_URL
-        }/artworks/oh-mother-what-planet-is-this/15.png`,
+        }/artworks/oh-mother-what-planet-is-this/15.jpeg`,
         `${
           import.meta.env.BASE_URL
-        }/artworks/oh-mother-what-planet-is-this/16.png`,
+        }/artworks/oh-mother-what-planet-is-this/16.jpeg`,
         `${
           import.meta.env.BASE_URL
-        }/artworks/oh-mother-what-planet-is-this/17.png`,
+        }/artworks/oh-mother-what-planet-is-this/17.jpeg`,
         `${
           import.meta.env.BASE_URL
-        }/artworks/oh-mother-what-planet-is-this/18.png`,
+        }/artworks/oh-mother-what-planet-is-this/18.jpeg`,
         `${
           import.meta.env.BASE_URL
-        }/artworks/oh-mother-what-planet-is-this/19.png`,
+        }/artworks/oh-mother-what-planet-is-this/19.jpeg`,
       ],
       localAudioPaths: null,
       youtubeEmbedURLs: null,
