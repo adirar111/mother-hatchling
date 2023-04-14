@@ -87,23 +87,6 @@ export const Artworks: Artwork[] = [
     },
   },
   {
-    artworkName: "her mother's hands (2018)",
-    props: {
-      artists: ["Kim Grewal (She/Her)"],
-      aboutArtists: [
-        "Kim Grewal (she/her) is a Punjabi interdisciplinary artist working on the traditional, unceded territory of the Coast Salish peoples, including the sə̓lílwətaʔɬ (Tsleil-Waututh), kʷikʷəƛ̓əm (Kwikwetlem), sḵwx̱wú7mesh (Squamish), xʷməθkʷəy̓əm (Musqueam), q̓ic̓əy̓ (Katzie), qiqéyt (Qayqayt), and S’ólh Téméxw (Stó:lō Nations). Grewal is interested in concepts of memory and perception, and exploring the ways in which bodies relate to one another in moments of vulnerability. Formal elements of line inform her work; how it functions to connect but also separate, how these intersections interact and how they leave traces and create space. Grewal conveys emotions and intangible moments of tenderness through gesture, allowing viewers to form connections through the expressions and language articulated in her artworks.",
-      ],
-      artistLinks: ["@kgrewalart", "karamveergrewal23@gmail.com"],
-      medium: "(Medium: video)",
-      aboutArtwork: [
-        "My work is about the maternal figures in my life, and created as a video letter in remembrance to my grandma. It is about my mom and her mom, my grandma. It’s also about loss and forgetting, and how language, a mother tongue, can become heavy in your mouth. I have a close relationship with my mom, and had an even closer relationship with my grandma, and so this work functions as a way for me to connect with her through the actions of applying mendhi onto my mom’s hands, overlaid a video of my mom applying mendhi to her own hands. This work had allowed me to be vulnerable about the process of remembering something that was lost, by creating something that allowed me to share this intimate remembering that is only accessible to those who understand the language.",
-      ],
-      youtubeEmbedURLs: ["https://www.youtube.com/embed/y-06rgn_fsI"],
-      localImagePaths: null,
-      localAudioPaths: null,
-    },
-  },
-  {
     artworkName: "Motherhood (2021)",
     props: {
       artists: ["G McBride (She/They)"],
@@ -240,27 +223,6 @@ export const Artworks: Artwork[] = [
       localImagePaths: [
         `${import.meta.env.BASE_URL}artworks/still-life/01.jpeg`,
         `${import.meta.env.BASE_URL}artworks/still-life/02.jpeg`,
-      ],
-      localAudioPaths: null,
-      youtubeEmbedURLs: null,
-    },
-  },
-  {
-    artworkName: "The Red Ties That Bind....Wind (2022)",
-    props: {
-      artists: ["Molly Bertheaud (She/Her)"],
-      aboutArtists: [
-        "I graduated from ecuad in 2020 with my bfa. I live in Montréal currently. In my work, I meld the archaic forms of painting and tapestry with contemporary techniques and machines to tell modern mythologies. I learned the craft of industrial knitting from my mother while growing up. The familial sharing of textile knowledge between women is a prehistoric tradition, except in this case, it was on a large industrial knitting machine we kept in our house. It has led me to explore science fiction/myth, ecology, mortality, and femininity, mainly through the lens of women, mothers, and the fragile perishability of textiles and, therefore, of women’s history.",
-      ],
-      artistLinks: ["@mollybirdtoad", "bertheaudm@gmail.com"],
-      medium: "(Medium: Industrially knit tapestry with embroidery | 59*41in)",
-      aboutArtwork: [
-        'During my residency at the Icelandic Textile center, I heard a lecture on the history of weaving which spoke of the symbol of the red thread. This thread binds lovers, and mothers to children through life. This series explores the transformation of threads, bodies, and species through the choices we make to love, and the consequences of this loving burden. Loving exposes you to a world of anxieties, a fear of unknown arrows aimed at your expanded heart, whether it’s a lover a partner or a child. In Jaqueline Rose’s book “Mothers: an Essay on Love and Cruelty” she writes of existing unattached (from children or lovers) by interpreting Euripides\' Medea "Those who do not have children are happier by far: no shadow of care, no unknowing as to whether your labours will produce good or bad children, no endless dread that, in the worst and final disaster, Death may take your child"',
-      ],
-      localImagePaths: [
-        `${
-          import.meta.env.BASE_URL
-        }artworks/the-red-ties-that-bind-wind/the-red-ties-that-bind-wind.jpg`,
       ],
       localAudioPaths: null,
       youtubeEmbedURLs: null,
