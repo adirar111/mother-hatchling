@@ -1,0 +1,21 @@
+.grid {
+  /* 4 rows 5 columns */
+  display: grid;
+  grid-template-rows: repeat(6, 1fr [row-start]);
+  grid-template-columns: repeat(5, 1fr [col-start]);
+  height: 100%;
+}
+
+.rotateLeft {
+  transform: rotate(-90deg);
+}
+
+
+.rotateRight {
+  transform: rotate(90deg);
+}
+
+.rotateUpside {
+  transform: rotate(180deg);
+}
+

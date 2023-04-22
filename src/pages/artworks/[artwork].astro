@@ -1,5 +1,5 @@
 ---
-import Layout from "../../layouts/Layout.astro";
+import PageLayout from "../../layouts/PageLayout.astro";
 import Artwork from "../../components/Artwork.tsx";
 import { Artworks } from "../../lib/artworks.ts";
 
@@ -25,7 +25,7 @@ const {
 } = Astro.props;
 ---
 
-<Layout title={artwork}>
+<PageLayout title={artwork}>
   <main>
     <Artwork
       artworkName={artwork}
@@ -39,4 +39,4 @@ const {
       youtubeEmbedURLs={youtubeEmbedURLs}
     />
   </main>
-</Layout>
+</PageLayout>

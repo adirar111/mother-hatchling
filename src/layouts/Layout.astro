@@ -19,27 +19,31 @@ const { title } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
-  <body>
-    <h1 class="title">
-      <a href={import.meta.env.BASE_URL}>an ode to my mom</a>
-    </h1>
     <slot />
-  </body>
 </html>
 
 <style is:global>
-  a:visited {
-    color: blue;
+  html {
+    height: 100%;
   }
   body {
-    margin: auto;
-    padding: 1.5rem;
-    max-width: 800px;
+    height: 800px;
+  }
+  a:visited {
+    color: blue;
   }
   h1 {
     text-align: center;
   }
   h1 a {
+    text-decoration: none;
+    color: black;
+  }
+  h2 a {
+    text-decoration: none;
+    color: black;
+  }
+  h2 a:visited {
     text-decoration: none;
     color: black;
   }

@@ -1,10 +1,13 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import HomeLayout from "../layouts/HomeLayout.astro";
 import ArtworkLinks from "../components/ArtworkLinks.tsx";
 ---
 
-<Layout title="an ode to my mom">
-  <main>
-    <ArtworkLinks />
-  </main>
-</Layout>
+<HomeLayout title="an ode to my mom">
+  <ArtworkLinks />
+</HomeLayout>
+
+<style>
+main {
+}
+</style>

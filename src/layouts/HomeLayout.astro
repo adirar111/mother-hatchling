@@ -1,0 +1,17 @@
+---
+import Layout from "./Layout.astro"
+---
+
+<Layout>
+  <body>
+    <h1 class="title">
+      <a href={`${import.meta.env.BASE_URL}about`}>an ode to my mom</a>
+    </h1>
+    <slot />
+  </body>
+</Layout>
+
+<style>
+body {
+}
+</style>
