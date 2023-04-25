@@ -41,7 +41,7 @@ export default function ArtworkLinks() {
     // classNames = "";
     return (
       <div className={styles.gridItem}>
-        <a href={`${import.meta.env.BASE_URL}artworks/${artwork.artworkName}`} className={classNames}>
+        <a href={`${import.meta.env.BASE_URL}artworks/${artwork.artworkName}`} className={`${classNames}${styles.link}`}>
           {artwork.artworkName} by {artwork.props.artists}
         </a>
       </div>
