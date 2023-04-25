@@ -16,6 +16,7 @@ export default function ArtworkLinks() {
     thread_of_red: Artworks[8],
   };
 
+  const Empty = () => <div className={styles.gridItem} />;
   const Link = ({
     artwork,
     rotateLeft,
@@ -27,75 +28,78 @@ export default function ArtworkLinks() {
     rotateRight?: boolean;
     rotateUpside?: boolean;
   }) => {
-    let classNames = ""
+    let classNames = "";
     if (rotateLeft) {
-       classNames += `${styles.rotateLeft} `
+      classNames += `${styles.rotateLeft} `;
     }
     if (rotateRight) {
-       classNames += `${styles.rotateRight} `
+      classNames += `${styles.rotateRight} `;
     }
     if (rotateUpside) {
-       classNames += `${styles.rotateUpside} `
+      classNames += `${styles.rotateUpside} `;
     }
+    // classNames = "";
     return (
-      <a href={`${import.meta.env.BASE_URL}artworks/${artwork.artworkName}`} className={classNames.trim()}>
-        {artwork.artworkName} by {artwork.props.artists}
-      </a>
+      <div className={`${classNames}${styles.gridItem}`}>
+        <a href={`${import.meta.env.BASE_URL}artworks/${artwork.artworkName}`}>
+          {artwork.artworkName} by {artwork.props.artists}
+        </a>
+      </div>
     );
   };
 
   const row1 = (
     <>
-      <Link artwork={art_table.motherhood} rotateLeft></Link>
-      <p />
-      <p />
-      <p />
-      <Link artwork={art_table.flyman} rotateRight></Link>
+      <Empty />
+      <Empty />
+      <Empty />
+      <Empty />
+      <Link artwork={art_table.flyman} />
     </>
   );
   const row2 = (
     <>
-      <p />
-      <p />
-      <Link artwork={art_table.ode_to_mother}></Link>
-      <p />
-      <p />
+      <Link artwork={art_table.motherhood} rotateLeft></Link>
+      <Empty />
+      <Link artwork={art_table.ode_to_mother} />
+      <Empty />
+      <Empty />
     </>
   );
   const row3 = (
     <>
-      <p />
-      <p />
-      <p />
-      <Link artwork={art_table.ill_be_behind_you}></Link>
-      <Link artwork={art_table.still_life} rotateRight></Link>
+      <Empty />
+      <Link artwork={art_table.ill_be_behind_you} />
+      <Empty />
+      <Empty />
+      <Link artwork={art_table.still_life} rotateRight />
     </>
   );
   const row4 = (
     <>
-      <Link artwork={art_table.oh_mother} rotateUpside></Link>
-      <p />
-      <p />
-      <p />
-      <p />
+      <Link artwork={art_table.oh_mother} rotateUpside />
+      <Empty />
+      <Empty />
+      <Empty />
+      <Empty />
     </>
   );
   const row5 = (
     <>
-      <p />
-      <p />
-      <Link artwork={art_table.going_somewhere} rotateLeft></Link>
-      <p />
-      <p />
+      <Empty />
+      <Empty />
+      <Link artwork={art_table.going_somewhere} rotateLeft />
+      <Empty />
+      <Empty />
     </>
   );
   const row6 = (
     <>
       <Link artwork={art_table.thread_of_red}></Link>
-      <p />
-      <p />
-      <p />
-      <Link artwork={art_table.hers_and_mine} rotateRight></Link>
+      <Empty />
+      <Empty />
+      <Empty />
+      <Link artwork={art_table.hers_and_mine} rotateUpside />
     </>
   );
 

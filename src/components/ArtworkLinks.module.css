@@ -1,9 +1,18 @@
 .grid {
-  /* 4 rows 5 columns */
+  overflow-x: hidden;
   display: grid;
-  grid-template-rows: repeat(6, 1fr [row-start]);
-  grid-template-columns: repeat(5, 1fr [col-start]);
-  height: 100%;
+  grid-template-rows: repeat(6, auto [row-start]);
+  grid-template-columns: repeat(5, auto [col-start]);
+  min-height: 100vh;
+}
+
+.gridItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: initial;
+  font-size: 14px;
 }
 
 .rotateLeft {
