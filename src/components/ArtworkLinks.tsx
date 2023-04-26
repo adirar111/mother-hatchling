@@ -5,14 +5,14 @@ import styles from "./ArtworkLinks.module.css";
 export default function ArtworkLinks() {
   // TODO: add collaborative piece link when implemented
   const art_table = {
-    flyman: Artworks[0], //
+    flyman: Artworks[0],
     going_somewhere: Artworks[1],
     hers_and_mine: Artworks[2],
-    ill_be_behind_you: Artworks[3], //
-    motherhood: Artworks[4], //
-    ode_to_mother: Artworks[5], //
-    oh_mother: Artworks[6], //
-    still_life: Artworks[7], //
+    ill_be_behind_you: Artworks[3],
+    motherhood: Artworks[4],
+    ode_to_mother: Artworks[5],
+    oh_mother: Artworks[6],
+    still_life: Artworks[7],
     thread_of_red: Artworks[8],
   };
 
@@ -38,7 +38,6 @@ export default function ArtworkLinks() {
     if (rotateUpside) {
       classNames += `${styles.rotateUpside} `;
     }
-    // classNames = "";
     return (
       <div className={styles.gridItem}>
         <a
