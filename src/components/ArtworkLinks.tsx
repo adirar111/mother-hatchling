@@ -41,7 +41,10 @@ export default function ArtworkLinks() {
     // classNames = "";
     return (
       <div className={styles.gridItem}>
-        <a href={`${import.meta.env.BASE_URL}artworks/${artwork.artworkName}`} className={`${classNames}${styles.link}`}>
+        <a
+          href={`${import.meta.env.BASE_URL}artworks/${artwork.artworkName}`}
+          className={`${classNames}${styles.link}`}
+        >
           {artwork.artworkName} by {artwork.props.artists}
         </a>
       </div>
@@ -54,7 +57,7 @@ export default function ArtworkLinks() {
       <Empty />
       <Empty />
       <Empty />
-      <Link artwork={art_table.flyman} rotateLeft/>
+      <Link artwork={art_table.flyman} rotateLeft />
     </>
   );
   const row2 = (
@@ -69,7 +72,7 @@ export default function ArtworkLinks() {
   const row3 = (
     <>
       <Empty />
-      <Link artwork={art_table.ill_be_behind_you} rotateRight/>
+      <Link artwork={art_table.ill_be_behind_you} rotateRight />
       <Empty />
       <Empty />
       <Empty />
@@ -103,14 +106,7 @@ export default function ArtworkLinks() {
     </>
   );
 
-  return (
-    <div className={styles.grid}>
-      {row1}
-      {row2}
-      {row3}
-      {row4}
-      {row5}
-      {row6}
-    </div>
-  );
+  const rows = [row1, row2, row3, row4, row5, row6];
+
+  return <div className={styles.grid}>{rows}</div>;
 }
