@@ -16,7 +16,7 @@ export default function ArtworkLinks() {
     thread_of_red: Artworks[8],
   };
 
-  const Empty = () => <div className={styles.gridItem} />;
+  const Empty = () => <td className={styles.td} />;
   const Link = ({
     artwork,
     rotateLeft,
@@ -39,73 +39,77 @@ export default function ArtworkLinks() {
       classNames += `${styles.rotateUpside} `;
     }
     return (
-      <div className={styles.gridItem}>
+      <td className={styles.td}>
         <a
           href={`${import.meta.env.BASE_URL}artworks/${artwork.artworkName}`}
           className={`${classNames}${styles.link}`}
         >
           {artwork.artworkName} by {artwork.props.artists}
         </a>
-      </div>
+      </td>
     );
   };
 
   const row1 = (
-    <>
+    <tr className={styles.row}>
       <Empty />
       <Empty />
       <Empty />
       <Empty />
       <Link artwork={art_table.flyman} rotateLeft />
-    </>
+    </tr>
   );
   const row2 = (
-    <>
+    <tr className={styles.row}>
       <Link artwork={art_table.motherhood} rotateLeft></Link>
       <Empty />
       <Link artwork={art_table.ode_to_mother} />
       <Empty />
       <Empty />
-    </>
+    </tr>
   );
   const row3 = (
-    <>
+    <tr className={styles.row}>
       <Empty />
       <Link artwork={art_table.ill_be_behind_you} rotateRight />
       <Empty />
       <Empty />
       <Empty />
-    </>
+    </tr>
   );
   const row4 = (
-    <>
+    <tr className={styles.row}>
       <Link artwork={art_table.oh_mother} rotateUpside />
       <Empty />
       <Empty />
       <Empty />
       <Link artwork={art_table.still_life} />
-    </>
+    </tr>
   );
   const row5 = (
-    <>
+    <tr className={styles.row}>
       <Empty />
       <Empty />
       <Link artwork={art_table.going_somewhere} rotateLeft />
       <Empty />
       <Empty />
-    </>
+    </tr>
   );
   const row6 = (
-    <>
+    <tr className={styles.row}>
       <Link artwork={art_table.thread_of_red}></Link>
       <Empty />
       <Empty />
       <Empty />
       <Link artwork={art_table.hers_and_mine} rotateRight />
-    </>
+    </tr>
   );
 
   const rows = [row1, row2, row3, row4, row5, row6];
 
-  return <div className={styles.grid}>{rows}</div>;
+  return (
+    <table className={styles.table}>
+      <tbody>{rows}</tbody>
+    </table>
+  );
 }
