@@ -1,0 +1,15 @@
+---
+import Layout from "./Layout.astro";
+
+const { title } = Astro.props;
+---
+
+<Layout title={title} hidden={false}>
+  <slot />
+</Layout>
+
+<style>
+  body {
+    width: 80%;
+  }
+</style>

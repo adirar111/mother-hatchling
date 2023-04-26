@@ -1,0 +1,19 @@
+---
+import HomeLayout from "../layouts/HomeLayout.astro";
+---
+
+<HomeLayout title="an ode to my mom">
+  <main class="center">
+    <h2>"404"</h2>
+    <h3>you've wandered away from the exhibition</h3>
+    <h4><a href={import.meta.env.BASE_URL}>... click here to return ...</a></h4>
+  </main>
+</HomeLayout>
+
+<style>
+  .center {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+  }
+</style>
