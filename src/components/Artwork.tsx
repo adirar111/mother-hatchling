@@ -1,4 +1,5 @@
 import type { ArtworkComponentProps } from "../lib/types";
+import { generateInstagramLink, isInstagramHandle } from "../lib/util";
 
 export default function Artwork({
   artworkName,
@@ -25,9 +26,18 @@ export default function Artwork({
         <p key={index}>{aboutArtist}</p>
       ))}
       <ul>
-        {artistLinks.map((link, index) => (
-          <li key={index}>{link}</li>
-        ))}
+        {artistLinks.map((link, index) => {
+          if (isInstagramHandle(link)) {
+            return (
+              <li key={index}>
+                <a href={generateInstagramLink(link)} target="_blank">
+                  {link}
+                </a>
+              </li>
+            );
+          }
+          return <li key={index}>{link}</li>;
+        })}
       </ul>
       <h3>about the artwork:</h3>
       <p>{medium}</p>
