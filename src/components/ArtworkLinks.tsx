@@ -13,6 +13,7 @@ export default function ArtworkLinks() {
     ode_to_mother: Artworks[5],
     oh_mother: Artworks[6],
     still_life: Artworks[7],
+    coming_out: Artworks[8],
   };
 
   const Empty = () => <td className={styles.td} />;
@@ -96,7 +97,7 @@ export default function ArtworkLinks() {
   );
   const row6 = (
     <tr className={styles.row}>
-      <Empty />
+      <Link artwork={art_table.coming_out} rotateLeft />
       <Empty />
       <Empty />
       <Empty />

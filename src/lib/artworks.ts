@@ -230,4 +230,23 @@ export const Artworks: Artwork[] = [
       youtubeEmbedURLs: null,
     },
   },
+  {
+    artworkName: "Navigating Through My Emotions: Coming Out",
+    props: {
+      artists: ["Sunny Park"],
+      aboutArtists: [""],
+      artistLinks: ["@sunnypork"],
+      medium: "video",
+      aboutArtwork: [
+        "This project was one of the few things that made me feel good about myself this term. I was proud of how it turned out, especially after showing it to class and hearing people’s reactions.",
+        "I doubted myself when I was making this video because I thought it was too personal, and I was worried that it would make other people feel uncomfortable. I still don’t feel too confident that it wouldn’t. The worst part about making vulnerable art is 1) you get scared of people judging you for what they found out about you, and 2) it’s giving too much information that no one asked for 3) people say it’s good because they are scared to judge vulnerable art.",
+        "During the critique, when I heard from a few people that they almost teared up, I was very surprised. It was a good day and I felt like I proved myself that I can make artworks I have always hoped to make. This project brought me one step closer to the kind of art I want to make, which is, an artwork that is deeply meaningful to me but also one that would be relevant and interesting to others.",
+        "For this video, I drew inspiration from Alison Bechdel and her autobiographical graphic novels. I was able to learn about myself through reading about her life. I was also inspired by the Netflix show “The Midnight Gospel”, especially the aesthetics of it. And lastly, Sophie Calle’s film Double Blind/No Sex Last Night, in which the artist made the film very personal, vulnerable, and humorous.",
+        "I hope this video is the first one to my series, “Navigating Through My Emotions”. After I got with my girlfriend, I realized more than ever that I have to learn to process and express my emotions better. I have a habit of keeping bad feelings to myself until it oozes out of my body and eventually bursts. It takes me a day or two to tell my partner an occurrence from school that made me feel bad about myself. Even when Danielle asks, I can only talk if I find the perfect time and environment to feel safe to be vulnerable. I’m extremely scared of getting hurt and therefore being open to others, so it’s funny that the kind of art I want to make is something personal and vulnerable.",
+      ],
+      localImagePaths: null,
+      localAudioPaths: null,
+      youtubeEmbedURLs: ["https://www.youtube.com/embed/zX3Krhwt08U"],
+    },
+  },
 ];

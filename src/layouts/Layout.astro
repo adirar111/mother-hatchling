@@ -14,7 +14,7 @@ const { title, hidden } = Astro.props;
     <link
       rel="icon"
       type="image/svg+xml"
-      href={import.meta.env.BASE_URL + "/hatch.png"}
+      href={`${import.meta.env.BASE_URL}hatch.png`}
     />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
@@ -22,7 +22,7 @@ const { title, hidden } = Astro.props;
   <body>
     <div class="top">
       <h2 class={hidden ? "hidden" : ""}>
-        <a href={`${import.meta.env.BASE_URL}`}><-</a>
+        <a href={import.meta.env.BASE_URL}><-</a>
       </h2>
       <h1>
         <a href={`${import.meta.env.BASE_URL}about`}>an ode to my mom</a>
