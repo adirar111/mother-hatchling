@@ -234,8 +234,10 @@ export const Artworks: Artwork[] = [
     artworkName: "Navigating Through My Emotions: Coming Out",
     props: {
       artists: ["Sunny Park"],
-      aboutArtists: [""],
-      artistLinks: ["@sunnypork"],
+      aboutArtists: [
+        "Sunny is a 2? years old kid who loves to draw and make stuff. They(or she or he) like to work on multiple projects simultaneously. Currently, they're interested in making picture books, music videos, and claymations. They like to delve into intimate relationship between two humans and the psychology behind it, amongst many other things.",
+      ],
+      artistLinks: ["https://sunnypork.com/", "@sunnypork"],
       medium: "video",
       aboutArtwork: [
         "This project was one of the few things that made me feel good about myself this term. I was proud of how it turned out, especially after showing it to class and hearing people’s reactions.",
