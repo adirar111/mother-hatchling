@@ -230,29 +230,4 @@ export const Artworks: Artwork[] = [
       youtubeEmbedURLs: null,
     },
   },
-  {
-    artworkName: "Thread of Red (2022)",
-    props: {
-      artists: ["Nazanin Oghanian"],
-      aboutArtists: [
-        "Living in a brown female body from Iran, I am a multidisciplinary artist and experimental filmmaker and my practice unfolds from critical reflection around notions of the body, identity, gender, memory, politics, and the establishment of a constant dialectic between the individual and the social. My recent work explores power relations and the ways in which women’s bodies are controlled through the medicalization of their bodies and reproductive health.",
-        "I currently live and work as a guest on unceded and ancestral territories of four Coast Salish First Nations: The xwməθkwəy̓əm, Skwxwú7mesh, səlilwətaʔɬ, and the kwikwəƛ̓əm — thehən̓q̓əmin̓əm̓ andSḵwx̱wú7mesh speaking peoples—traditionally and colonially known as Burnaby, Canada. My work has been exhibited across Iran and Canada including VIVO Media Arts, Dr. Sun Yat-Sen Classical Chinese Garden, and Morris And Helen Belkin Art Gallery. I received my Master of Fine Arts in Visual Arts from the University of British Columbia in 2020.",
-        "Unlike the way that is expected that one narrates their past experiences, uncertainties, and hiatus into a cohesive manner, the moments of interruption, pause, and entanglement have shaped my space of thinking and making. My starting point has been observing the growing assemblage of voids, absences, and desires.",
-        "My recent work has explored power relations and the ways in which bodies are controlled and how this manifests in the points of contact between memory and body’s story. Specifically, in the case of my own work and experience, I am interested in the individual traces such control leaves embedded in my memory and how I continue to feel my own embodiment.",
-        "Working mostly with video, audio, and other sensory stimulative installations, I am interested in discrete components of the auditory, visual and gestural aspects of memory and control, and I examine the intrinsically obsessive and repetitive nature of the gestures required to enact my own regulations. Each work delves into the extreme edges of these sensory and bodily components as a way to explore the slippages of my memory and my body’s story.",
-      ],
-      artistLinks: ["nazanin.oghanian@gmail.com"],
-      medium: "Six-channel video installation",
-      aboutArtwork: [
-        "My recent work during the last few years breaks down into discrete components of the auditory, visual, and gestural aspects of memory and control; each work delves into the extreme edges of these sensory and bodily components. Through the use of audio, visual, and narrative strategies, I play with the slippages of my memory.",
-        "Thread of Red is my most recent work started when my mom passed away unexpectedly last year in November 2021. Focusing on storytelling through gesture, Thread of Red is a series of videos in which the viewers encounter the objects, on one hand, that my mom left with me for the time she would return — she never did – and on the other, the photos of her that have pierced me through the selection process — here I am referring to Roland Barthes’s punctum theory.",
-        "This video installation explores different forms of remembering, erasure, grief, loss, and present experience of memory. Through the performative act of rubbing, exploring, and remembering through objects, this fragmented imagery is an attempt to approach a memory non-linearly and assert the importance of emotions and subjectivity when interacting with photographs and the past.",
-      ],
-      localImagePaths: [
-        `${import.meta.env.BASE_URL}artworks/thread-of-red/thread-of-red.jpeg`,
-      ],
-      localAudioPaths: null,
-      youtubeEmbedURLs: ["https://www.youtube.com/embed/-ivrT7XU8dU"],
-    },
-  },
 ];

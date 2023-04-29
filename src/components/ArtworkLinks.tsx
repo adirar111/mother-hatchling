@@ -13,7 +13,6 @@ export default function ArtworkLinks() {
     ode_to_mother: Artworks[5],
     oh_mother: Artworks[6],
     still_life: Artworks[7],
-    thread_of_red: Artworks[8],
   };
 
   const Empty = () => <td className={styles.td} />;
@@ -97,7 +96,7 @@ export default function ArtworkLinks() {
   );
   const row6 = (
     <tr className={styles.row}>
-      <Link artwork={art_table.thread_of_red}></Link>
+      <Empty />
       <Empty />
       <Empty />
       <Empty />
