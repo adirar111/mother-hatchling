@@ -29,10 +29,7 @@ export const Artworks: Artwork[] = [
         "Kim Grewal (she/her) is a Punjabi interdisciplinary artist working on the traditional, unceded territory of the Coast Salish peoples. Grewal is interested in memory and perception and exploring the ways in which bodies relate to one another in moments of vulnerability. Formal elements of line inform her work; how it functions to connect but also separate, how these intersections interact, and how they leave traces and create space. Grewal conveys emotions and moments of tenderness through gesture, allowing viewers to form connections through the expressions and language articulated in her artworks.",
         "Elisha Wang is an interdisciplinary visual artist. Her works explore topics including identity, perception, and self-expression. Her current practice focuses on text-based works, but she also uses media such as video installation, photography, and painting. Wang was born and raised in China and emigrated to Vancouver, Canada at the age of 17.",
       ],
-      artistLinks: [
-        "@kgrewalart",
-        "@nineteen_27",
-      ],
+      artistLinks: ["@kgrewalart", "@nineteen_27"],
       medium: "video",
       aboutArtwork: [
         "The artwork is a collaborative piece about the places our moms are from, the idea of home and motherland. As both of our mothers left their respective birthplace, and as settlers on a land that doesn’t belong to us, this work lets us express the emotions associated with different places. Exploring an act of leaving as also the action of going to a new place, we are in conversation with each other, speaking on how the idea of home does not exist in the same way as it once did.",
@@ -90,12 +87,12 @@ export const Artworks: Artwork[] = [
     props: {
       artists: ["G McBride"],
       aboutArtists: [
-        "I am a visual arts student at Emily Carr currently in my 3rd year. I am primarily working in printmaking and sculpture. I’m Metis, I was born in Surrey, BC and I’m 25.",
+        "G is a 25 year old métis artist from BC in their third year of BFA studies from Concordia University to Emily Carr. Struggling to connect with others, they began making art at a young age and now see their practice as a way to connect with themeslves and the things going on around them. G works primarily in printmaking, textiles, and sculpture. Their artworks touch on sentimentality, identity, loneliness, grief, fears, and reconnection.",
       ],
       artistLinks: ["@softchamber", "georginamcbride97@gmail.com"],
       medium: "woodblock print | 8.5*6 in",
       aboutArtwork: [
-        "This piece was about my relation to my mother. It is based on a photo of my mother holding me as a baby. When I first saw the photo only a few years ago, it hit me really hard. The look in her eyes was extremely solemn. I wondered how she felt when that photo was taken. I made this piece to deal with my feelings of abandonment and emotional estrangement by my mother. I made it during the process of healing these feelings and my relationship with her. It was originally a reductive series and this is the final print in the series.",
+        "This piece came from my then strained relationship with my mother. It is based on a photo of my mother holding me as a baby. When I first saw the photo only a few years ago, it hit me really hard. I remember crying when I first saw it. The look on her face in the photo was profoundly empty, my face was away from the camera. I wondered how she felt when that photo was taken; if she loved me or if she was struggling to be a mother to me. The feeling I got from this photo was deeply tied to the overall feelings about my difficult relationship with her growing up and how it affected me into adulthood. The carvings and prints I made in this reductive series acted as a sort of physical transmutation of my feelings towards her as a carer to me in the past, my challenging and lonely upbringing, and over time coming to sympathize with her experience as a person with generational trauma, grief, and her own sets of challenges.",
       ],
       localImagePaths: [
         `${import.meta.env.BASE_URL}artworks/motherhood/motherhood.jpeg`,
