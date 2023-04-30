@@ -1,7 +1,9 @@
 ---
 import Layout from "./Layout.astro";
+
+const { title } = Astro.props;
 ---
 
-<Layout title="ode to my mom" hidden={true}>
+<Layout title={title} hidden={true}>
   <slot />
 </Layout>
