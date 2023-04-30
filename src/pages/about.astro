@@ -46,4 +46,18 @@ import PageLayout from "../layouts/PageLayout.astro";
   </p>
   <p>With love,</p>
   <p>Sunny, Bofei, and Aymen</p>
+  <br>
+  <div>
+  <img src={`${import.meta.env.BASE_URL}poster.jpg`}>
+  </div>
 </PageLayout>
+
+<style>
+img {
+  max-width: 100%;
+}
+
+div {
+  text-align: center;
+}
+</style>
