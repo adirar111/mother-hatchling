@@ -22,21 +22,20 @@ export const Artworks: Artwork[] = [
     },
   },
   {
-    artworkName: "Going somehwere; leaving someplace. (2019)",
+    artworkName: "going somewhere; leaving someplace (2019)",
     props: {
       artists: ["Kim Grewal", "Elisha Wang"],
       aboutArtists: [
-        "Kim Grewal (she/her) is a Punjabi interdisciplinary artist working on the traditional, unceded territory of the Coast Salish peoples, including the sə̓lílwətaʔɬ (Tsleil-Waututh), kʷikʷəƛ̓əm (Kwikwetlem), sḵwx̱wú7mesh (Squamish), xʷməθkʷəy̓əm (Musqueam), q̓ic̓əy̓ (Katzie), qiqéyt (Qayqayt), and S’ólh Téméxw (Stó:lō Nations). Grewal is interested in concepts of memory and perception, and exploring the ways in which bodies relate to one another in moments of vulnerability. Formal elements of line inform her work; how it functions to connect but also separate, how these intersections interact and how they leave traces and create space. Grewal conveys emotions and intangible moments of tenderness through gesture, allowing viewers to form connections through the expressions and language articulated in her artworks.",
+        "Kim Grewal (she/her) is a Punjabi interdisciplinary artist working on the traditional, unceded territory of the Coast Salish peoples. Grewal is interested in memory and perception and exploring the ways in which bodies relate to one another in moments of vulnerability. Formal elements of line inform her work; how it functions to connect but also separate, how these intersections interact, and how they leave traces and create space. Grewal conveys emotions and moments of tenderness through gesture, allowing viewers to form connections through the expressions and language articulated in her artworks.",
         "Elisha Wang is an interdisciplinary visual artist. Her works explore topics including identity, perception, and self-expression. Her current practice focuses on text-based works, but she also uses media such as video installation, photography, and painting. Wang was born and raised in China and emigrated to Vancouver, Canada at the age of 17.",
       ],
       artistLinks: [
         "@kgrewalart",
         "@nineteen_27",
-        "karamveergrewal23@gmail.com",
       ],
       medium: "video",
       aboutArtwork: [
-        "This work is a collaborative piece about our mothers and our feelings towards the places our moms come from. It is a work that expresses the idea of home, and motherland. As both our mothers left their birthplace, and as settlers on a land that doesn’t belong to us, this work let us express the emotions associated with places. Exploring the idea of looking at it in both as a way of leaving and as an action of going to a new place. In conversation with each other, we talk about the ache in returning to a place, but sometimes the place isn’t the same as when you left it, and so the idea of returning home doesn’t exist in the same way.",
+        "The artwork is a collaborative piece about the places our moms are from, the idea of home and motherland. As both of our mothers left their respective birthplace, and as settlers on a land that doesn’t belong to us, this work lets us express the emotions associated with different places. Exploring an act of leaving as also the action of going to a new place, we are in conversation with each other, speaking on how the idea of home does not exist in the same way as it once did.",
       ],
       youtubeEmbedURLs: ["https://www.youtube.com/embed/dkvzvwlBaOE"],
       localImagePaths: null,
