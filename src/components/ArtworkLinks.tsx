@@ -44,7 +44,7 @@ export default function ArtworkLinks() {
           href={`${import.meta.env.BASE_URL}artworks/${artwork.artworkName}`}
           className={`${classNames}${styles.link}`}
         >
-          {artwork.artworkName} by {artwork.props.artists}
+          {artwork.artworkName} by {artwork.props.artists.join(", ")}
         </a>
       </td>
     );
