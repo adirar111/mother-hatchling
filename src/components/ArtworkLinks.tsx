@@ -43,7 +43,7 @@ export default function ArtworkLinks() {
       classNames += `${styles.rotateUpside} `;
     }
 
-    if (password) {
+    if (password && passwordPromptText) {
       return (
         <td className={styles.td}>
           <a
