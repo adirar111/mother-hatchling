@@ -7,6 +7,7 @@ import {
 
 export default function Artwork({
   artworkName,
+  pageArtworkName,
   artists,
   medium,
   aboutArtists,
@@ -23,7 +24,7 @@ export default function Artwork({
   );
   return (
     <div>
-      <h2>{artworkName}</h2>
+      <h2>{pageArtworkName ? pageArtworkName : artworkName}</h2>
       <h3>by: {artists.join(", ")}</h3>
       <h3>about the artist:</h3>
       {aboutArtists.map((aboutArtist, index) => (

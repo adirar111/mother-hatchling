@@ -1,6 +1,7 @@
 export type Artwork = {
   artworkName: string;
   props: {
+    pageArtworkName?: string;
     artists: string[];
     aboutArtists: string[];
     artistLinks: string[];
@@ -14,6 +15,7 @@ export type Artwork = {
 
 export type ArtworkComponentProps = {
   artworkName: string;
+  pageArtworkName?: string;
   artists: string[];
   aboutArtists: string[];
   artistLinks: string[];
