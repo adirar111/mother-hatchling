@@ -227,7 +227,7 @@ export const Artworks: Artwork[] = [
     },
   },
   {
-    artworkName: "Navigating Through My Emotions",
+    artworkName: "Navigating Through My Emotions (2022)",
     props: {
       artists: ["Sunny Park"],
       aboutArtists: [
