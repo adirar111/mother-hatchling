@@ -4,6 +4,6 @@ import Layout from "./Layout.astro";
 const { title } = Astro.props;
 ---
 
-<Layout title={title} hidden={true}>
+<Layout title={title} navigation={false} information={true}>
   <slot />
 </Layout>
